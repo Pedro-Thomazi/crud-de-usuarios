@@ -9,7 +9,7 @@ import { useFetch } from '../../Hooks/useFetch'
 import { Link } from 'react-router-dom'
 
 // URL
-const url = 'http://localhost:9001/users/'
+const url = 'https://json-server-crud.vercel.app/users'
 
 const List = () => {
   const [users, setUsers] = useState([])
