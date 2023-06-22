@@ -21,7 +21,7 @@ const UpdateUser = () => {
   const { id } = useParams()
 
   // url user
-  const url = `http://localhost:9001/users/${id}`
+  const url = `https://json-server-crud.vercel.app/users/${id}`
 
   const { httpConfig } = useFetch(url)
 
