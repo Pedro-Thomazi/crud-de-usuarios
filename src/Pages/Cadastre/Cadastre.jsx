@@ -6,7 +6,7 @@ import { useFetch } from '../../Hooks/useFetch'
 
 const Cadastre = () => {
   // Url Backend
-  const url = 'http://localhost:9001/users'
+  const url = 'https://json-server-crud.vercel.app/users'
 
 
   const [name, setName] = useState('')
