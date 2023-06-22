@@ -1,0 +1,39 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 300px;
+    background: #8468E8;
+    z-index: -1;
+}
+
+.navbar div {
+    margin-top: 30px;
+}
+
+.navbar a {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 35px;
+    width: calc(300px - 35px);
+    height: 70px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.navbar a:hover {
+    background: #6DBAF2;
+}
+
+.navbar a i {
+    padding-right: 10px;
+}
+
+.active {
+    background-color: #6DBAF2;
+    color: #fff;
+}

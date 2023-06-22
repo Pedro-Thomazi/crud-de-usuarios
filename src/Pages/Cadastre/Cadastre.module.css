@@ -1,0 +1,59 @@
+.bodyForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bodyForm h2 {
+    color: #8468E8;
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 3px solid #8468E8;
+    background: #919191;
+    width: 500px;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.form label {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.form label span {
+    font-size: 1.5em;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.form label input {
+    height: 2em;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn {
+    font-size: 1.5em;
+    width: 200px;
+    height: 90px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+    color: #fff;
+    background: #8468E8;
+}
+
+.btn:hover {
+    background: #5a479e;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.404);
+}
