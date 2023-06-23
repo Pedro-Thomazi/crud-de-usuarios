@@ -20,7 +20,6 @@ const List = () => {
   // Deletar usuario
   const deletedUser = async (id) => {
     httpConfig(id, 'DELETE')
-    alert('Usuário deletado. Aperte F5')
   }
 
   console.log(users)
