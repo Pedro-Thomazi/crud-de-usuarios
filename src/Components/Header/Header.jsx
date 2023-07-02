@@ -7,6 +7,10 @@ const Header = () => {
             <h1>
                 <Link to='/'>Cadastro de Usuarios</Link>
             </h1>
+            <div className={styles.links}>
+                <Link to='/'> <i className="bi bi-people"></i>Listar</Link>
+                <Link to='/cadastre'> <i className="bi bi-person-add"></i>Cadastrar</Link>
+            </div>
         </header>
     )
 }

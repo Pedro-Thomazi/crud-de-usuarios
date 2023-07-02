@@ -10,7 +10,7 @@
 }
 
 .navbar div {
-    margin-top: 30px;
+    margin-top: 30px
 }
 
 .navbar a {
@@ -36,4 +36,10 @@
 .active {
     background-color: #6DBAF2;
     color: #fff;
+}
+
+@media (max-width: 1603px) {
+    .navbar {
+        display: none;
+    }
 }
