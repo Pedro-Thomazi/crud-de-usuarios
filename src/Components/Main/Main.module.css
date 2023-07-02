@@ -1,9 +1,18 @@
 .main {
     position: absolute;
     top: 200px;
-    left: 330px;
+    left: 310px;
     width: 80%;
     height: auto;
     padding: 10px 10px 50px 10px;
     background: #e0e0e0;
+}
+
+@media (max-width: 1603px) {
+    .main {
+        position: static;
+        max-width: 750px;
+        height: auto;
+        margin: 30px auto;
+    }
 }

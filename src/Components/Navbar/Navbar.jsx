@@ -1,10 +1,10 @@
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import styles from './Navbar.module.css'
 
 const Navbar = () => {
   return (
     <nav className={styles.navbar}>
-      <a href="#topo">Voltar ao Topo</a>
+      <a className={styles.linkTopo} href="#topo">Voltar ao Topo</a>
         <div>
           <hr />
           <NavLink to='/'> <i className="bi bi-people"></i>Listar</NavLink>

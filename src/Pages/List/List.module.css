@@ -102,3 +102,17 @@
     border: 1px solid #ff2727;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.384);
 }
+
+
+@media (max-width: 665px) {
+    .list .user {
+        display: flex;
+        flex-direction: column;
+    }
+    .list .user hr {
+        width: 100%;
+    }
+    .list .user img {
+        align-self: center;
+    }
+}
